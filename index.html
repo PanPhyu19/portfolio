@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio · Pan Phyu Phyu Hmwe</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- Devicon (tech logos) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+</head>
+
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header class="header" role="banner">
+    <a href="#home" class="logo">Pan <span>Phyu</span></a>
+
+    <!-- Mobile menu icon -->
+    <i class="bx bx-menu" id="menu-icon" aria-label="Open menu"></i>
+
+    <nav class="navbar" role="navigation" aria-label="Primary">
+      <a href="#home" class="active">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+
+      <!-- Theme toggle -->
+      <div class="theme-toggle" id="theme-toggle"> <i class='bx bx-sun' id="theme-icon"></i>
+    </nav>
+  </header>
+
+  <main id="content" role="main">
+    <!-- ===== Home / Hero ===== -->
+    <section class="home" id="home" aria-label="About me">
+      <div class="home-content">
+        <h1>Hello, It's <span>Pan</span></h1>
+
+        <h3 class="text-animation">I'm into <span></span></h3>
+
+        <p>
+          I’m a Bachelor of Computer Science graduate from the University of Waikato, currently based in Hamilton, New Zealand.
+          I’m passionate about software and web development, database management, and data analysis and visualization.
+        </p>
+
+        <!-- Quick contact -->
+        <div class="about-contact">
+          <p>
+            <i class="bx bx-envelope" aria-hidden="true"></i>
+            <a href="mailto:phwhiteflower175@gmail.com">phwhiteflower175@gmail.com</a>
+          </p>
+          <p>
+            <i class="bx bx-map" aria-hidden="true"></i>
+            Hamilton, New Zealand
+          </p>
+        </div>
+
+        <!-- Social icons -->
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/pan-phyu-phyu-hmwe-a529a822b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/PanPhyu19" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.instagram.com/panphyu_whiteflower/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="mailto:phwhiteflower175@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+            <i class="bx bxl-gmail"></i>
+          </a>
+        </div>
+
+        <!-- CTA buttons -->
+        <div class="btn-group">
+          <!-- <a href="Pan Phyu Phyu Hmwe - Resume.pdf" download class="btn">Download CV</a> -->
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <!-- Profile image -->
+      <div class="home-img">
+        <img src="images/profile picture.jpg" alt="Portrait of Pan Phyu Phyu Hmwe" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="skills" id="skills" aria-label="Skills and tools">
+      <h2 class="skills-heading">Skills &amp; Tools</h2>
+
+      <!-- Programming -->
+      <div class="skills-row">
+        <div class="skill"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+        <div class="skill"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+        <div class="skill"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+        <div class="skill"><i class="devicon-python-plain"></i><span>Python</span></div>
+        <div class="skill"><i class="devicon-java-plain"></i><span>Java</span></div>
+        <div class="skill"><i class="devicon-csharp-plain"></i><span>C#</span></div>
+      </div>
+      <div class="skills-divider"></div>
+
+      <!-- Databases & Backend -->
+      <div class="skills-row">
+        <div class="skill"><i class="devicon-c-plain"></i><span>C</span></div>
+        <div class="skill"><i class="devicon-php-plain"></i><span>PHP</span></div>
+        <div class="skill"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+        <div class="skill"><i class="devicon-microsoftsqlserver-plain"></i><span>SQL Server</span></div>
+        <div class="skill"><i class="devicon-oracle-original"></i><span>Oracle</span></div>
+        <div class="skill"><i class="devicon-mongodb-plain"></i><span>MongoDB</span></div>
+      </div>
+      <div class="skills-divider"></div>
+
+      <!-- Data & Analytics -->
+      <div class="skills-row">
+        <div class="skill"><i class="devicon-r-original"></i><span>R / RStudio</span></div>
+        <div class="skill"><i class="bx bxs-bar-chart-alt-2"></i><span>Power BI</span></div>
+        <div class="skill">
+          <img src="images/tableau-icon.svg" alt="Tableau" class="skill-img" loading="lazy" />
+          <span>Tableau</span>
+        </div>
+        <div class="skill"><i class="bx bx-spreadsheet"></i><span>Spreadsheets</span></div>
+        <div class="skill"><i class="bx bx-transfer"></i><span>Power Automate</span></div>
+        <div class="skill"><i class="bx bx-shape-square"></i><span>PowerApps</span></div>
+      </div>
+      <div class="skills-divider"></div>
+
+      <!-- Platforms & Tools -->
+      <div class="skills-row">
+        <div class="skill"><i class="devicon-azure-plain"></i><span>Azure</span></div>
+        <div class="skill"><i class="devicon-dotnetcore-plain"></i><span>.NET</span></div>
+        <div class="skill"><i class="devicon-androidstudio-plain"></i><span>Android Studio</span></div>
+        <div class="skill"><i class="devicon-git-plain"></i><span>Git</span></div>
+        <div class="skill"><i class="devicon-github-original"></i><span>GitHub</span></div>
+        <div class="skill"><i class="devicon-gitlab-plain"></i><span>GitLab</span></div>
+      </div>
+      <div class="skills-divider"></div>
+
+      <!-- IDE & Misc -->
+      <div class="skills-row">
+        <div class="skill"><i class="devicon-vscode-plain"></i><span>VS Code</span></div>
+        <div class="skill"><i class="devicon-visualstudio-plain"></i><span>Visual Studio</span></div>
+        <div class="skill"><i class="devicon-figma-plain"></i><span>Figma</span></div>
+        <!-- Keep placeholders only if your CSS needs 6 per row -->
+        <div class="skill placeholder" aria-hidden="true"></div>
+        <div class="skill placeholder" aria-hidden="true"></div>
+        <div class="skill placeholder" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="projects" id="projects" aria-label="Featured projects">
+      <h2 class="projects-heading">Featured Projects</h2>
+      <p class="projects-subheading">A selection of projects that reflect my skills and interests.</p>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="images/appointment booking.jpg" alt="Online Appointment Booking System preview" loading="lazy" />
+          <h3>Online Appointment Booking System</h3>
+          <p>
+            Prototype web application using HTML, CSS, JavaScript, and PHP. Streamlines appointment booking,
+            product sales, and administrative tasks with a secure, responsive design.
+          </p>
+          <div class="project-buttons">
+            <a class="project-btn" href="https://github.com/PanPhyu19/Online-Appointment-Booking-System" target="_blank" rel="noopener noreferrer">View Code</a>
+            <!-- <a class="project-btn secondary" href="#" target="_blank" rel="noopener noreferrer">Live Demo</a> -->
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="images/hge.jpg" alt="Home Gym Equipment website preview" loading="lazy" />
+          <h3>Home Gym Equipment</h3>
+          <p>
+            Prototype e-commerce website for a gym equipment business, covering sales, services, second-hand items,
+            and wearables.
+          </p>
+          <div class="project-buttons">
+            <a class="project-btn" href="https://github.com/PanPhyu19/hge_website-with-html-and-php" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="images/R logo.jpg" alt="R project logo" loading="lazy" />
+          <h3>PCR and PLS Analysis on the Dataset</h3>
+          <p>
+            R project exploring Principal Component Regression (PCR) and Partial Least Squares (PLS) Regression
+            for factors influencing U.S. college graduation rates.
+          </p>
+          <div class="project-buttons">
+            <a class="project-btn" href="https://github.com/PanPhyu19/PCR-and-PLS-Analysis-on-the-Dataset" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <img src="images/java logo.jpg" alt="Java project logo" loading="lazy" />
+          <h3>LZW Encoding and Decoding</h3>
+          <p>
+            Java implementation of a full LZW (Lempel–Ziv–Welch) encoding/decoding pipeline
+            working with hexadecimal data.
+          </p>
+          <div class="project-buttons">
+            <a class="project-btn" href="https://github.com/PanPhyu19/PCR-and-PLS-Analysis-on-the-Dataset" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+          <img src="images/co2 emissions.png" alt="Global CO₂ emissions map" loading="lazy" />
+          <h3>CO₂ Emissions</h3>
+          <p>
+            Interactive Tableau dashboard highlighting emission intensity by country for regional comparison.
+          </p>
+          <div class="project-buttons">
+            <a class="project-btn" href="https://public.tableau.com/app/profile/pan.phyu.phyu.hmwe/viz/CO2emissions_17498994126130/Sheet1"
+               target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="experience" id="experience" aria-label="Work experience">
+      <h2 class="heading">Experience</h2>
+
+      <div class="timeline-items">
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-date">2022–Present</div>
+          <div class="timeline-content">
+            <h3>Freelance Web Developer</h3>
+            <p>
+              Designed and developed responsive web applications using PHP, JavaScript, and Node.js.<br />
+              Built and optimized relational databases with SQL Server, including schema design and query tuning.<br />
+              Delivered secure, scalable full-stack solutions and collaborated closely with clients to meet business needs.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-date">2023–Present</div>
+          <div class="timeline-content">
+            <h3>Shift Supervisor (3IC)</h3>
+            <h4>Macpac NZ Ltd.</h4>
+            <p>
+              Delegated daily tasks and supported team members to ensure smooth store operations.<br />
+              Trained and coached new team members to align with company standards and best practices.<br />
+              Assisted in achieving daily targets while maintaining high service quality under pressure.<br />
+              Coordinated with management to improve workflow efficiency and staff performance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-date">2022</div>
+          <div class="timeline-content">
+            <h3>Internship</h3>
+            <h4>KMD Ltd.</h4>
+            <p>
+              Gained hands-on experience in Java programming through on-the-job training.<br />
+              Installed, designed, and maintained relational databases; implemented stored procedures and queries; optimized database performance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience 4 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-date">2015–2022</div>
+          <div class="timeline-content">
+            <h3>Volunteer Experience</h3>
+            <p>
+              English Language Teacher, Ponnami Language Center (Yangon, Myanmar).<br />
+              Participated in COVID-19 contact tracing in the Yangon region.<br />
+              Assisted dental surgeons at Dhamma Paragu Dental Charity Clinic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="education" id="education" aria-label="Education">
+      <h2 class="heading">Education</h2>
+
+      <div class="education-container">
+        <!-- Bachelor -->
+        <div class="education-box">
+          <div class="education-info">
+            <h3>University of Waikato</h3>
+            <h4>Bachelor of Computer Science</h4>
+            <span class="edu-year">2023 – 2024</span>
+            <p>
+              Gained a strong foundation in software development, advanced database management, data analysis, and computing principles.
+              Learned to design and implement solutions, apply modern tools and technologies, solve complex problems, and work collaboratively
+              while upholding professional and ethical standards.
+            </p>
+            <a class="edu-btn" href="https://www.waikato.ac.nz/study/qualifications/bachelor-of-computer-science#degree" target="_blank" rel="noopener noreferrer">
+              View Program Details
+            </a>
+          </div>
+        </div>
+
+        <!-- L5 Diploma -->
+        <div class="education-box">
+          <div class="education-info">
+            <h3>NCC Education (UK)</h3>
+            <h4>Level 5 Diploma in Computing</h4>
+            <span class="edu-year">2021 – 2022</span>
+            <p>
+              Developed strong understanding of core computing concepts including programming, database management, networking, and systems analysis.
+              Gained practical skills in designing software solutions, managing relational databases, and applying problem-solving techniques to real-world IT scenarios.
+            </p>
+            <a class="edu-btn" href="https://www.nccedu.com/qualifications/diplomas/ncc-education-level-5-diploma-in-computing-l5dc/" target="_blank" rel="noopener noreferrer">
+              View Program Details
+            </a>
+          </div>
+        </div>
+
+        <!-- L4 Diploma -->
+        <div class="education-box">
+          <div class="education-info">
+            <h3>NCC Education (UK)</h3>
+            <h4>Level 4 Diploma in Computing</h4>
+            <span class="edu-year">2015 – 2016</span>
+            <p>
+              Gained foundational knowledge in computing principles, programming, database systems, and IT infrastructure.
+              Developed essential problem-solving and analytical skills, building a strong base for further studies in software development and data management.
+            </p>
+            <a class="edu-btn" href="https://www.nccedu.com/qualifications/diplomas/ncc-education-level-4-diploma-in-computing-l4dc/" target="_blank" rel="noopener noreferrer">
+              View Program Details
+            </a>
+          </div>
+        </div>
+
+        <!-- BDS -->
+        <div class="education-box">
+          <div class="education-info">
+            <h3>University of Dental Medicine, Yangon</h3>
+            <h4>Bachelor of Dental Surgery — Final Year</h4>
+            <span class="edu-year">2015 – 2020</span>
+            <p>
+              Completed advanced clinical and theoretical coursework in oral health, patient care, and dental surgery.
+              Developed strong analytical and communication skills through hands-on training in patient assessment and treatment planning.
+              Discontinued the program due to unforeseen and uncontrollable circumstances.
+            </p>
+            <a class="edu-btn" href="https://udmyangon-edu.com/pages/courses_detail/1" target="_blank" rel="noopener noreferrer">
+              View Program Details
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Achievements ===== -->
+    <section class="achievements" id="achievements" aria-label="Achievements and certifications">
+      <h2 class="achievements-heading">Achievements &amp; Certifications</h2>
+
+      <div class="achievements-grid">
+        <div class="achievement">
+          <img src="images/Coursera Certificate_page-0001.jpg" alt="Google Data Analytics Professional Certificate" loading="lazy" />
+          <h4>Google Data Analytics Professional Certificate</h4>
+          <span>Google · 2025</span>
+          <a class="achievement-btn"
+             href="https://www.coursera.org/account/accomplishments/professional-cert/M5VECSLWR39W"
+             target="_blank" rel="noopener noreferrer">
+            View Certificate
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer / Contact ===== -->
+  <footer class="footer" id="contact" role="contentinfo">
+    <!-- Left column: direct contact -->
+    <div class="footer-contact">
+      <h3>Contact Me</h3>
+      <p>
+        <i class="bx bx-envelope" aria-hidden="true"></i>
+        <a href="mailto:phwhiteflower175@gmail.com">phwhiteflower175@gmail.com</a>
+      </p>
+      <p>
+        <i class="bx bx-phone" aria-hidden="true"></i>
+        <a href="tel:+64224756505">+64 22 475 6505</a>
+      </p>
+      <p>
+        <i class="bx bx-map" aria-hidden="true"></i>
+        Hamilton, New Zealand
+      </p>
+    </div>
+
+    <!-- Center column: social + quick nav -->
+    <div class="footer-center">
+      <div class="social">
+        <a href="https://www.linkedin.com/in/pan-phyu-phyu-hmwe-a529a822b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://github.com/PanPhyu19" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.instagram.com/panphyu_whiteflower/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="mailto:phwhiteflower175@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+          <i class="bx bxl-gmail"></i>
+        </a>
+      </div>
+
+      <ul class="list" aria-label="Footer navigation">
+        <li><a href="#home">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <p class="copyright">© 2025 Pan Phyu Phyu Hmwe | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
