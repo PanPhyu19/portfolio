@@ -167,7 +167,7 @@ span{ color: var(--main-color); }
 .text-animation{ font-size: 34px; font-weight: 600; min-width: 280px; }
 .text-animation span{ position: relative; }
 .text-animation span::before{
-    content: "Web Developer"; color:var(--main-color); animation: words 20s infinite;
+    content: "Data Analysis"; color:var(--main-color); animation: words 20s infinite;
 }
 .text-animation span::after{
     content: ""; background-color: var(--bg-color); position: absolute;
@@ -176,11 +176,11 @@ span{ color: var(--main-color); }
 }
 @keyframes cursor { to{ border-left: 2px solid var(--main-color); } }
 @keyframes words{
-    0%,20%{ content: "Software Development"; }
-    21%,40%{ content: "Data Analysis"; }
+    0%,20%{ content: "Data Engineering"; }
+    21%,40%{ content: "Database Design"; }
     41%,60%{ content: "Database Management"; }
     61%,80%{ content: "Web Development" }
-    81%,100%{ content: "Database Design" }
+    81%,100%{ content: "Software Development" }
 }
 @keyframes typing{
     10%,15%,30%,35%,50%,55%,70%,75%,90%,95% { width: 0; }
